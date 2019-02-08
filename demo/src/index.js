@@ -1,15 +1,60 @@
-import React, {Component} from 'react'
-import {render} from 'react-dom'
+import React, { Component } from "react";
+import { render } from "react-dom";
 
-import Example from '../../src'
+import ScrollBar from "../../src";
 
 class Demo extends Component {
   render() {
-    return <div>
-      <h1>scollbar Demo</h1>
-      <Example/>
-    </div>
+    return (
+      <div style={{ height: "500px" }}>
+        <ScrollBar color={"blue"} width={10}>
+          <h1>scollbar Demo</h1>
+          <h1>scollbar Demo</h1>
+          <h1>scollbar Demo</h1>
+          <h1>scollbar Demo</h1>
+          <h1>scollbar Demo</h1>
+          <h1>scollbar Demo</h1>
+          <h1>scollbar Demo</h1>
+          <h1>scollbar Demo</h1>
+          <h1>scollbar Demo</h1>
+          <h1>scollbar Demo</h1>
+          <h1>scollbar Demo</h1>
+          <h1>scollbar Demo</h1>
+          <h1>scollbar Demo</h1>
+          <h1>scollbar Demo</h1>
+          <h1>scollbar Demo</h1>
+          <h1>scollbar Demo</h1>
+          <h1>scollbar Demo</h1>
+          <h1>scollbar Demo</h1>
+          <h1>scollbar Demo</h1>
+          <h1>scollbar Demo</h1>
+          <h1>scollbar Demo</h1>
+          <h1>scollbar Demo</h1>
+          <h1>scollbar Demo</h1>
+          <h1>scollbar Demo</h1>
+          <h1>scollbar Demo</h1>
+          <h1>scollbar Demo</h1>
+          <h1>scollbar Demo</h1>
+          <h1>scollbar Demo</h1>
+          <h1>scollbar Demo</h1>
+          <h1>scollbar Demo</h1>
+          <h1>scollbar Demo</h1>
+          <h1>scollbar Demo</h1>
+          <h1>scollbar Demo</h1>
+          <h1>scollbar Demo</h1>
+          <h1>scollbar Demo</h1>
+          <h1>scollbar Demo</h1>
+          <h1>scollbar Demo</h1>
+          <h1>scollbar Demo</h1>
+          <h1>scollbar Demo</h1>
+          <h1>scollbar Demo</h1>
+          <h1>scollbar Demo</h1>
+          <h1>scollbar Demo</h1>
+          <h1>scollbar Demo</h1>
+        </ScrollBar>
+      </div>
+    );
   }
 }
 
-render(<Demo/>, document.querySelector('#demo'))
+render(<Demo />, document.querySelector("#demo"));
